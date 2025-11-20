@@ -36,3 +36,4 @@ comparar_raiz(Numero, Limite, Resultado) :-
     (Raiz > Limite ->  Resultado = 'Mayor';
     Raiz =:= Limite ->  Resultado = 'Igual';
     Resultado = 'Menor').
+
