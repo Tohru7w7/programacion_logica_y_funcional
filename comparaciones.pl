@@ -1,6 +1,6 @@
 area_circulo(Radio, Area) :- Area is pi * Radio ** 2.
 
-%comparar_area(10,12,Resulytado). = Mayor
+%comparar_area(10,12,Resultado). = Mayor
 comparar_area(Radio,Limite,Resultado):-
     area_circulo(Radio,Area),
     (Area > Limite ->
